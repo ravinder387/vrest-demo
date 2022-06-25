@@ -2,8 +2,8 @@
 ## basic example of call V from R by using json.
 
 ### Little-intro abt V
-It is compiled and simple syntax more like R. It compile very fast with tcc < 1s and binary are so smaller in size compared to c,c++,go,rust. By default it handle memory leaks but if you want to build low level things like os, embedded system you can disable garbage collector<br>
-My server only is 2mb approx and with -prod(v -prod json.v) it is only 301kb size some programmers who make excuses they can't contribute because of low ram labtop they can use v. Unlike tensorflow, torch have huge memory <br>
+It is compiled and simple language. It compile very fast with tcc < 1s and binary are so smaller in size compared to c,c++,go,rust. By default it handle memory leaks but if you want to build low level things like os, embedded system you can disable garbage collector<br>
+My server only is 2mb approx and with -prod(v -prod json.v) it is only 301kb size. Unlike tensorflow, torch have huge memory <br>
 v's scientific library consume very less memory. You can also do cross compile.
 
 ##### 1. First compile & run executable file ./json(linux) and .\json.exe(window)
